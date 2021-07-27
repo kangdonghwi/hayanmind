@@ -19,8 +19,8 @@ const Comment = styled.p`
 `;
 
 
-const Item = ({ article }) => {
-    const { id,email,body} = article;
+const Item = ({ content }) => {
+    const { id,email,body } = content;
 
     return(
         <ItemBlock>
